@@ -1,0 +1,14 @@
+.order {
+  background: #ffe0b3;
+  
+}
+.order-container{
+  position: sticky;
+  top: 120px;
+}
+.order-content{
+  padding-left: 50px;
+}
+.order-content p{
+  margin: 40px 0;
+}

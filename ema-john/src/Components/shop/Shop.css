@@ -1,0 +1,49 @@
+.shop-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.products-container {
+    margin: 120px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 45px;
+    position: relative;
+}
+.review-container {
+    width: 700px;
+
+}
+.review-grid{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 185px 140px 0 140px ;
+}
+.clear-cart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background: #FF3030;
+    margin: 16px;
+    padding: 0 16px;
+    color: #fff;
+    cursor: pointer;
+}
+.clear-delete-icon{
+    font-size: 24px;
+    color: #fff;
+}
+.btn-review{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+    background: #F90;
+    margin: 16px;
+    padding:16px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-review:hover{
+    color: #fff;
+}
